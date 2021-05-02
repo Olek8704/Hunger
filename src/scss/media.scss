@@ -1,0 +1,153 @@
+@media (min-width: 534px) and (max-width: 767px) {
+  //Main
+  main {
+    //Table
+    .table {
+      .table-form-btn {
+        a {
+          width: 100%;
+          max-width: 505px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  //Header
+  header{
+    #header-inner-center {
+      h6 {
+        font-size: 10px;
+      }
+      h1 {
+        font-size: 45px;
+      }
+    }
+    .header-btn {
+      a {
+        font-size: 12px;
+        padding: 6px 16px;
+      }
+    }
+  }
+  //Main
+  main {
+    //Menu
+    .menu {
+      .hr-menu-line {
+        display: block;
+        height: 40px;
+        border-right: 2px solid #c4c4c4;
+        border-radius: 50px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  //Header
+  header{
+    #header-inner-center {
+      h1 {
+        font-size: 55px;
+      }
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  //Header
+  header{
+    .responsive-menu {
+      display: none;
+    }
+    .responsive-menu-lg {
+      display: block;
+    }
+    #header-inner-center {
+      h1 {
+        font-size: 65px;
+      }
+    }
+    .header-btn {
+      a {
+        font-size: 16px;
+        padding: 8px 25px;
+      }
+    }
+    #header-social {
+      a {
+        margin-bottom: 10px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  //Main
+  main {
+    //Special
+    .special {
+      #carouselExampleIndicators {
+        .carousel-indicators {
+          bottom: -15px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  //Header
+  header{
+    #header-inner-center {
+      h1 {
+        font-size: 80px;
+      }
+    }
+  }
+  //Main
+  main {
+    //About
+    .about {
+      #about-square {
+        display: block;
+      }
+    }
+    //Team
+    .team {
+      #team-square {
+        display: block;
+      }
+    }
+    //Table
+    .table {
+      #table-square {
+        display: block;
+      }
+      .table-form-btn {
+        a {
+          width: 100%;
+          max-width: 505px;
+        }
+      }
+    }
+    //Special
+    .special {
+      #special-square1,
+      #special-square2,
+      #special-square3 {
+        display: block;
+      }
+    }
+    //Events
+    .events {
+      #events-square_left {
+        display: block;
+      }
+      #events-square_right {
+        display: block;
+      }
+    }
+  }
+}

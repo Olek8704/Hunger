@@ -1,0 +1,315 @@
+.hr-line {
+  width: 60px;
+  height: 3px;
+  background: #E8C300;
+  border-radius: 50px;
+  margin: 20px auto;
+}
+
+.hr-menu-line {
+  display: none;
+  height: 40px;
+  border-right: 2px solid #c4c4c4;
+  border-radius: 50px;
+}
+.wrapper {
+  overflow-x: hidden;
+}
+
+//Header
+
+header {
+  background: url("../../build/images/header-bg.png") center center / cover no-repeat;
+  height: 100vh;
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .responsive-menu-lg {
+    display: none;
+  }
+  .navbar-nav > li > a{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  #work-hours  {
+    font-size: 12px;
+    transform: rotate(-90deg);
+    color: #fff;
+    padding: 0;
+    left: -85px;
+  }
+  #header-inner {
+   //padding: 50px 0;
+  }
+  #header-inner-center {
+    h6 {
+      font-size: 8px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      color: #fff;
+      letter-spacing: 2px;
+    }
+    h1 {
+      font-size: 36px;
+      font-family: 'Josefin Sans', sans-serif;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+  .header-btn {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    a {
+      display: inline-block;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 500;
+      font-size: 10px;
+      color: #fff;
+      padding: 5px 8px;
+      border: 1px solid #8a8a8a;
+      border-radius: 3px;
+      text-transform: uppercase;
+      &:hover {
+        background: #E8C300;
+        transition: all .2s;
+      }
+    }
+  }
+  #header-social {
+    a {
+      color: #fff;
+      margin-bottom: 10px;
+      border: 1px solid #8a8a8a;
+      border-radius: 50%;
+      background: #000;
+      width: 35px;
+      height: 35px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        background: #E8C300;
+        transition: all .2s;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+  .header-arrow {
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 35px;
+      height: 35px;
+      color: #000;
+      background: #fff;
+      border-radius: 100px;
+      &:hover {
+        background: #E8C300;
+        transition: all .2s;
+      }
+    }
+  }
+}
+
+//Main
+main {
+  //About
+  .about {
+    background: #fff;
+    h1 {
+      font-family: 'Josefin Sans', sans-serif;
+    }
+    #about-square {
+      display: none;
+      top: 45px;
+      left: 280px;
+    }
+  }
+  //Team
+  .team {
+    background: url("../../build/images/background team.png") center center / cover no-repeat;
+    #team-square {
+      display: none;
+      top: 45px;
+      left: -165px;
+    }
+  }
+  //Table
+  .table {
+    background: #fff;
+    #table-square {
+      display: none;
+      top: 45px;
+      left: 280px;
+    }
+    .table-form {
+      input {
+        width: 100%;
+        max-width: 250px;
+        margin: 10px 0;
+        padding: 10px;
+        border: none;
+        background: #e5e5e5;
+        border-radius: 3px;
+        &::placeholder {
+          font-size: 12px;
+          color: #5d6d7e;
+        }
+      }
+      select {
+        width: 100%;
+        max-width: 250px;
+        margin: 10px 0;
+        padding: 10px;
+        border: none;
+        background: #e5e5e5;
+        border-radius: 3px;
+        //font-size: 12px;
+        color: #5d6d7e;
+      }
+    }
+    .table-form-btn {
+      a {
+        background: #E8C300;
+        width: 100%;
+        max-width: 250px;
+        padding: 15px 0;
+        color: #fff;
+        border-radius: 3px;
+        &:hover {
+          color: #000;
+          transition: all .3s;
+        }
+      }
+    }
+    .table-works {
+      font-size: 12px;
+      a {
+        display: inline;
+        color: #000;
+        text-decoration: underline;
+      }
+    }
+  }
+  //Special
+  .special {
+    background: url("../../build/images/specialty's-bg.png") center center / cover no-repeat;
+    .carousel-inner {
+      overflow: inherit;
+    }
+    #special-square1,
+    #special-square2,
+    #special-square3 {
+      display: none;
+      top: 45px;
+      left: -165px;
+    }
+    #carouselExampleIndicators {
+      .carousel-indicators {
+        bottom: -50px;
+        li {
+          width: 10px;
+          height: 10px;
+          border-radius: 100%;
+        }
+      }
+    }
+  }
+  //Menu
+  .menu {
+    #nav-tab {
+      .nav-link {
+        font-family: 'Open Sans', sans-serif;
+        text-transform: uppercase;
+        color: #000;
+        &:hover {
+          color: #323232;
+          text-decoration: underline;
+        }
+      }
+    }
+    .menu-inner {
+      .menu-title {
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      .menu-subtitle {
+        font-family: 'Open Sans', sans-serif;
+        color: #b0b0b0;
+        font-size: 12px;
+      }
+    }
+  }
+  //Events
+  .events {
+    background: url("../../build/images/specialty's-bg (1).png") center center / cover no-repeat;
+    #events-square_left {
+      display: none;
+      top: 45px;
+      left: -165px;
+    }
+    #events-square_right {
+      display: none;
+      top: 45px;
+      left: 280px;
+    }
+    .table-works {
+      font-size: 12px;
+      color: #999;
+      a {
+        display: inline;
+        color: #999;
+        text-decoration: underline;
+      }
+    }
+  }
+  //Contacts
+  .contacts {
+    background: #fff;
+    input {
+      border: none;
+      border-radius: 3px;
+      background: #e5e5e5;
+      padding: 10px;
+      &::placeholder {
+        font-size: 12px;
+      }
+    }
+    textarea {
+      border: none;
+      border-radius: 3px;
+      background: #e5e5e5;
+      padding: 10px;
+      &::placeholder {
+        font-size: 12px;
+      }
+    }
+    .contacts-info {
+      font-size: 12px;
+      a {
+        color: #000;
+        &:hover {
+          text-decoration: underline;
+        }
+        i {
+          color: #E8C300;
+        }
+      }
+    }
+    .contacts-btn {
+      a {
+        background: #E8C300;
+        color: #fff;
+        border-radius: 3px;
+        padding: 10px 0;
+      }
+    }
+  }
+}
